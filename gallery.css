@@ -1,0 +1,33 @@
+body{
+	background-color: yellow;
+}
+header{
+	font-family: 'dokdo', cursive;
+	text-align: center;
+}
+
+#container{
+	margin-left: 130px;
+}
+
+
+.images{
+
+	display: block;
+	width: 20%;
+	float: left;
+	padding: 10px;
+	padding-left: 12px;
+
+}
+
+img{
+	width: 100%;
+	border-radius: 5px;
+
+}
+
+img:hover{
+	transform: scale(2,2);
+	transition: .3s transform;
+}
